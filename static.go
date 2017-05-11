@@ -1,4 +1,4 @@
-package chromatixau 
+package gomiddleware 
 
 import (
 	"net/http"
