@@ -1,4 +1,4 @@
-# goMiddleware
+# gomiddleware
 Negroni Middleware for golang
 
 * Logger - log writer
