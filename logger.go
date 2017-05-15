@@ -77,7 +77,7 @@ func (l *Logger) ServeHTTP(rw http.ResponseWriter, r *http.Request, next http.Ha
 
   next(rw, r)
 
-  res := rw.(negroni.ResponseWriter)
+  res := rw.(ResponseWriter)
   log := LogEntry{
     StartTime: start.Format(l.dateFormat),
     Status:    res.Status(),
