@@ -9,8 +9,6 @@ import (
   "os"
   "text/template"
   "time"
-
-  "github.com/urfave/negroni"
 )
 
 // LogEntry is the structure
